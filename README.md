@@ -74,47 +74,10 @@ The Coffee Shop domain consists of three main entities:
 
 ---
 
-## **Sample Code and Usage**
-```python
-from customer import Customer
-from coffee import Coffee
-from order import Order
 
-# Create customers
-john = Customer("John")
-mary = Customer("Mary")
-
-# Create coffee types
-espresso = Coffee("Espresso")
-latte = Coffee("Latte")
-
-# Create orders
-order1 = bob.create_order(espresso, 5.0)
-order2 = alice.create_order(latte, 6.0)
-order3 = bob.create_order(espresso, 7.0)
-
-# Test relationships
-print(bob.coffees())  # [Espresso, Latte]
-print(espresso.customers())  
-print(espresso.num_orders())  # 2
-print(espresso.average_price())  # 6.0
-
-```
-
----
 
 ## **Testing**  
-1. **Create a `tests` Directory:**  
-   ```bash
-   mkdir tests  
-   ```  
-
-2. **Write Test Cases:**  
-   - `tests/test_customer.py`  
-   - `tests/test_coffee.py`  
-   - `tests/test_order.py`  
-
-3. **Run Tests:**  
+1. **Run Tests:**  
    ```bash
    pytest  
    ```  
