@@ -2,7 +2,6 @@
 
 ### **Assessment**  
 **Code Challenge - Coffee Shop (Object Relationships)**  
-**Points:** 15  
 
 ---
 
