@@ -92,7 +92,6 @@ The Coffee Shop domain consists of three main entities:
 
 ## **Submission**  
 - Push your project to a private GitHub repository.  
-- Add your TM as a collaborator.  
 - Submit the repository link for grading.  
 
 ---
